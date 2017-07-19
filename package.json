@@ -4,5 +4,10 @@
     "express": "^4.15.3",
     "mocha": "^3.4.2",
     "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-node6": "^11.0.0",
+    "babel-register": "^6.24.1"
   }
 }
