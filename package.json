@@ -9,5 +9,9 @@
     "babel-cli": "^6.24.1",
     "babel-preset-node6": "^11.0.0",
     "babel-register": "^6.24.1"
+  },
+  "scripts": {
+    "start": "node ./node_modules/babel-cli/bin/babel-node.js index.js",
+    "test": "node ./node_modules/mocha/bin/mocha --compilers js:babel-register --recursive ./tests/*.test.js"
   }
 }
